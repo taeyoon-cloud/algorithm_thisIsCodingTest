@@ -1,3 +1,4 @@
+// Greedy_2 <큰 수의 법칙>
 #include <iostream>
 #include <algorithm>
 #include <vector>

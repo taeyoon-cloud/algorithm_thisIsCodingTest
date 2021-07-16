@@ -1,3 +1,4 @@
+// Greedy_3 <숫자 카드 게임>
 #include <iostream>
 #include <algorithm>
 

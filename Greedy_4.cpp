@@ -2,9 +2,9 @@
 #include <iostream>
 using namespace std;
 
-int n, k;
-int answer;
-int temp;
+long long n, k;
+long long answer;
+long long temp;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -23,11 +23,13 @@ int main() {
 		temp = n % k; // k·Î ³ª´²Áú ¶§±îÁö »©ÁÜ
 		n -= temp;
 		answer += temp;
+		cout << "n: " << n << "answer: " << answer << endl;
 
 		if (n % k == 0){ // k·Î ³ª´²Áú¶§±îÁö »« ÈÄ k·Î ³ª´²ÁÜ
 			n /= k;
 			answer += 1;
 		}
+		cout << "n: " << n << "answer: " << answer << endl;
 	}
 
 
